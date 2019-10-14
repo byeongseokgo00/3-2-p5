@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5wk-project</title>
+	<style type="text/css">
+		body{margin: 0;}
+		section{height: 800px; position: relative;}
+		img{width: 150px; position: absolute; top:45px;}
+		#t2{position: absolute; width: 650px; margin-left: 350px;}
+		#t3{position: absolute; width: 600px;}
+		#t34{position: absolute; width: 800px; top:100px;}
+		#t35{position: absolute; width: 450px; top:420px; margin-right: -30px;}
+		#t4{position: absolute; width: 480px;}
+		#t44{position: absolute; width: 550px; top:120px; margin-left: 450px;}
+		#t5{position: absolute; width: 1000px; top:10px; margin-left: 200px;}
+
+		.on{background: url('main.gif'); background-size: cover;}
+		.tw{background: green; margin-bottom: 300px;}
+		.th{background: red;}
+		.tf{background: red;}
+		.fo{background: red;}
+		.fi{background: red;}
+
+		#monitor{position: fixed; background: black; width: 0px; height:00px; right: 0px; top:0px; color: black; z-index: 9999;}
+
+		@keyframes ro{	to{transform: rotate(360deg);}	}
+		@keyframes le{	from{left:0px;} to{left: 280px;} }
+		@keyframes ri{	from{right:0px;} to{right: 100px;} }
+		@keyframes rig{	from{right:0px;} to{right: 50px;} }		
+		@keyframes tt{	from{top:100px; opacity: 0} to{top:200px; opacity: 1} }
+		@keyframes ttt{	from{top:100px; opacity: 0} to{top:250px; opacity: 1} }
+		@keyframes tttt{ from{top:100px; opacity: 0} to{top:240px; opacity: 1} }
+		@keyframes ttttt{ from{top:100px; opacity: 0} to{top:450px; opacity: 1} }				
+		@keyframes to{ from{bottom:0px;} to{top:300px;} }
+		@keyframes bo{ from{top:0px;} to{bottom:250px;} }
+
+
+		.text{width: 330px; font-style: 0.9em; line-height: 1.5;
+			color:black; position: absolute; opacity: 0;}
+
+		.mat { font-size: 3em; text-align: center; margin-top: 400px; }
+		.matt { font-size: 1.2em; text-align: center; color: red;}
+		.mattt { font-size: 2em; text-align: center; margin-top:0px; margin-bottom: 200px;}		
+
+		#txt1 { left:700px; }
+		#txt2 { left:220px; }
+		#txt2 h1 { font-size:2.1em; }
+
+		#txt3 { right:900px; top:50px; color:white;}
+		#txt3 h1 { font-size:2.1em; }
+
+		#txt34 { top:0px; right:300px; }
+		#txt34 h1 { font-size: 2.1em; }
+
+		#txt4 { left:750px; top:100px; }
+		#txt5 { left:500px; color:white;}
+		#txt5 p { width: 500px; margin-top:50px;}
+
+		#bb{ background: white; background-size: cover; background-attachment: fixed;}
+		#cc{ background: black; background-size: cover; background-attachment: fixed;}
+		#ff{ background: white; background-size: cover; background-attachment: fixed; margin-bottom: 600px;}
+		#dd{ background: white; background-size: cover; background-attachment: scroll;}
+		#ee{ background: black; background-size: cover; background-attachment: scroll;}
+
+	footer { width: 100%; height: 200px; background-color: black; }
+
+	footer p { text-align: center; padding-top: 130px; color:white; margin-top: 0px;}
+
+	</style>
+
+</head>
+<body>
+	<section class="on">
+		<div class="text" id="txt1">
+		</div>
+	</section>
+
+	<header>
+		<h1 class="mat">Apple Watch</h1>
+		<p class="matt">Series 5</p>
+		<h3 class="mattt">지금까지 이런 시계는 없었습니다.</h3>
+	</header>
+
+	<section class="tw" id="bb">
+		<img src="sg.gif" id="t2">
+		<div class="text" id="txt2">
+			<h1>애플워치는 늘 깨어있는 디스플레이를 가집니다.</h1>
+			<p>구석구석 자신에 맞게 꾸미는 시계 페이스. 어느 시계 페이스든, 원하는 앱이나 특정 기능을 바로 쓸 수 있게 해주는 컴플리케이션을 골라 필요에 따라 구성할 수 있습니다.<br><br>덕분에 한눈에 더 많은 정보를 확인하고, 터치 한 번에 더 많은 일을 할 수 있죠. 가능성은 수백 가지. 게다가 ‘인포그래프’와 같은 페이스에는 컴플리케이션을 무려 아홉 개까지 띄울 수 있습니다.</p>
+		</div>
+	</section>
+
+	<section class="th" id="cc">
+		<img src="three.png" id="t3">
+		<div class="text" id="txt3">
+			<h1>시계니까 시간도<br>표시한답니다.</h1>
+			<p>상시표시형 Retina 디스플레이. 시계 페이스에 담긴 시간 또는 그 밖의 정보를 보기 위해, 더 이상 손목을 들어 올리거나 화면을 터치할 필요가 없습니다.<br><br> 디스플레이가 절대 잠들지 않으니까요. 덕분에 자전거를 타고 있을 때도, 복근 운동으로 열심히 땀을 빼는 중에도, 혹은 회의 중에 시간이 얼마나 흘렀는지를 알고 싶을 때도, 흘깃 보는 것만으로 필요한 수치를 바로 확인할 수 있습니다.</p>
+		</div>		
+	</section>
+
+	<section class="tf" id="ff">
+		<img src="texture.png" id="t34">
+		<div class="text" id="txt34">
+			<h1>소재 선택도 다양하죠.</h1>
+			<p>알루미늄, 스테인리스 스틸, 티타늄, 아니면 세라믹? 선택은 당신의 몫입니다.</p>
+		</div>	
+		<img src="texture2.png" id="t35">
+	</section>
+
+
+	<section class="fo" id="dd">
+		<img src="music.gif" id="t44">
+		<img src="airpod.png" id="t4">
+		<div class="text" id="txt4">
+			방대한 Apple Music 라이브러리, 그리고 애청 팟캐스트를 맘껏 즐길 수 있습니다. 
+		</div>		
+	</section>
+
+	<section class="fi" id="ee">
+		<img src="dk.png" id="t5">
+		<div class="text" id="txt5">
+			<p>추가 기능으로, 새로운 다크 모드는 장치의 배터리 수명을 최소한으로 연장 할 수 있습니다. 최신 iPhone의 OLED 화면은 검정을 표시하는 데 전력을 사용하지 않으므로 어두운 모드를 선택하면 이론적으로 배터리 소비가 줄어 듭니다. 이는 iOS 13의 성능을 개선하려는 Apple의 전반적인 목표와 일치합니다.<br><br>이제 애플워치5로도 다크모드를 즐길 수 있습니다.</p>
+		</div>		
+	</section>
+
+	<div id="monitor"></div>
+
+	<script type="text/javascript">
+	window.onscroll = function(){
+		var t = document.documentElement.scrollTop + document.body.scrollTop;
+		monitor.innerHTML = t;
+
+		if(t > 140){
+			t2.style.animation = "le 1.5s forwards";
+			txt2.style.animation = "tt 2s forwards";
+		}else{
+			t2.style.animation = "";
+			txt2.style.animation = "";
+		}
+
+		if(t > 1600){
+			t3.style.animation = "ri 2s forwards";
+			txt3.style.animation = "ttt 1.5s forwards";
+		}else{
+			t3.style.animation = "";
+			txt3.style.animation = "";
+		}
+
+		if(t > 2400){
+			t35.style.animation = "rig 2s forwards";
+			txt34.style.animation = "ttt 3s forwards";
+		}else{
+			t35.style.animation = "";
+			txt34.style.animation = "";
+		}		
+
+		if(t > 3000){
+			t4.style.animation = "le 2s forwards";
+			txt4.style.animation = "tttt 3s forwards";
+		}else{
+			t4.style.animation = "";
+			txt4.style.animation = "";
+		}	
+
+		if(t > 4000){
+			t5.style.animation = "ro 3s forwards";
+			txt5.style.animation = "ttttt 3s forwards";
+		}else{
+			t5.style.animation = "";
+			txt5.style.animation = "";
+		}					
+//		t2.style.animation = "ro 1s infinite";
+		
+//		if(t > 200){txt2.style.left = "300px";}
+	}
+	</script>
+
+	<footer>
+		<p>2019&copy; HKNU Design 고병석. all rights reserved.</p>
+	</footer>
+
+</body>
+</html>
